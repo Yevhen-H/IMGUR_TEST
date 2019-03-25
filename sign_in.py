@@ -24,7 +24,7 @@ driver.find_element_by_css_selector("label.browse-btn").send_keys("C:/Users/yhur
 #fileInput  = driver.find_element_by_css_selector("label.browse-btn")
 #driver.execute_script("arguments[0].setAttribute('value', 'C:/Users/yhurt/image1.png')", fileInput)
 #send_keys(os.getcwd()+"/image1.png")
-time.sleep(10)
+time.sleep(5)
 
 #create title
 #driver.find_element_by_css_selector("h1.post-title.post-contenteditable::before").send_keys("cat and the glass")
