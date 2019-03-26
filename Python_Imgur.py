@@ -34,7 +34,7 @@ class Python_Imgur(unittest.TestCase):
     time.sleep(4)
 
 
-    #def test_new_post(os_path, post_title):
+    #def test_new_post(self, driver, os_path, post_title):
         # create a new post
         # driver.find_element_by_css_selector("span.Button-label").click()
         # driver.find_element_by_css_selector("label.browse-btn").click()
@@ -43,8 +43,6 @@ class Python_Imgur(unittest.TestCase):
         #driver.find_element_by_css_selector("h1.post-title.post-contenteditable::before").send_keys(post_title)
         # driver.find_element_by_css_selector("a.post-options-publish.btn.btn-action").click()
 
-
-    #test_new_post("C:/Users/yhurt/image1.png", "cat and the glass")
 
 
     def sign_out(self, driver):
@@ -57,11 +55,11 @@ class Python_Imgur(unittest.TestCase):
 
 
     def test_methods(self,):
-
         self.home_page(driver)
         self.test_sign_in(driver, user="SomeNewUser", password="secret1")
         self.test_random_mode(driver)
         self.test_search_by_topic(driver, "space")
+        #self.test_new_post(driver, "C:/Users/yhurt/image1.png", "cat and the glass")
         self.sign_out(driver)
         self.test_methods()
 
