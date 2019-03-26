@@ -36,7 +36,6 @@ def search_by_topic(search_word):
     # click next
     driver.find_element_by_css_selector("div.btn.btn-action.navNext").click()
 
-
 search_by_topic("space")
 time.sleep(4)
 
