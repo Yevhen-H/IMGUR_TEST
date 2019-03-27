@@ -3,6 +3,7 @@ driver = webdriver.Chrome()#Firefox: executable_path="C:/Users/yhurt/PycharmProj
 from selenium.webdriver.common.action_chains import ActionChains
 
 
+
 class Base_Page:
 
     def __init__(self):

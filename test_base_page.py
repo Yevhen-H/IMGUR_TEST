@@ -2,7 +2,6 @@ import pytest
 from new_post import New_Post
 from base_page import Base_Page
 
-
 @pytest.fixture
 def base(request):
     fixture = Base_Page()
