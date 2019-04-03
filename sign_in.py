@@ -16,6 +16,9 @@ driver.find_element_by_css_selector("span.Button-label").click()
 driver.find_element_by_css_selector("label.browse-btn").click()
 driver.find_element_by_css_selector("label.browse-btn").send_keys("C:/Users/yhurt/image1.png")
 
+
+
+
 #elm = driver.find_element_by_css_selector("label.browse-btn")
 #elm.send_keys(os.getcwd() + "C:/Users/yhurt/image1.png")
 
@@ -23,7 +26,7 @@ driver.find_element_by_css_selector("label.browse-btn").send_keys("C:/Users/yhur
 #fileInput  = driver.find_element_by_css_selector("label.browse-btn")
 #driver.execute_script("arguments[0].setAttribute('value', 'C:/Users/yhurt/image1.png')", fileInput)
 #send_keys(os.getcwd()+"/image1.png")
-time.sleep(6)
+#time.sleep(6)
 
 #create title
 #driver.find_element_by_css_selector("h1.post-title.post-contenteditable::before").send_keys("cat and the glass")
